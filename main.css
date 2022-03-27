@@ -1,0 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, cornflowerblue, white);
+}
+
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.minititle {
+    flex-grow: 5;
+    display: block;
+}
+
+.logout-display {
+    color: black;
+    background-color: yellow;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.logout-display:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: orangered;
+}
+
+.bar-top {
+    width: 100%;
+}
