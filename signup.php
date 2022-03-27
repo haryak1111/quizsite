@@ -15,7 +15,7 @@ session_start();
 			$query = "insert into login (user_id,username,password) values ('$user_id','$username','$password')";
 			mysqli_query($con, $query);
 
-			header("Location: login.php");
+			header("Location: index.php");
 			die;
 
 		}else
@@ -63,7 +63,7 @@ session_start();
 
 				<input id="button" type="submit" value="Signup"><br><br>
 
-				<a href="login.php"><b>Click to Login</b></a><br><br>
+				<a href="index.php"><b>Click to Login</b></a><br><br>
 			</form>
 		</div>
 	</body>
